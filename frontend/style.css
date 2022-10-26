@@ -1,0 +1,54 @@
+body {
+    background-color: #f7e4d4;
+    display: block;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.header {
+    font-size: 48px;
+    font-family: 'EB Garamond', serif;
+    color: #467745;
+    height: auto;
+}
+
+.visszajelzes {
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-family: 'EB Garamond', serif;
+    font-size: 21px;
+    width: 280px;
+    height: 80px;
+    background-color: #467745;
+    color: #f7e4d4;
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 200px;
+    border-radius: 40px;
+    border: none;
+}
+
+.trgy {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #467745;
+}
+
+.p1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    color: #467745;
+    font-size: 16px;
+}
